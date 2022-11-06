@@ -1,4 +1,4 @@
-package com.slickdb
+package quickstart.action
 
 import slick.jdbc.PostgresProfile.api._
 

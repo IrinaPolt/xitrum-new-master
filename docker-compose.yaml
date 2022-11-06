@@ -9,9 +9,8 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - db:/var/lib/postgresql11/data
+      - db_data:/var/lib/postgresql/data
       - ./db/init-scripts.sql:/docker-entrypoint-initdb.d/scripts.sql
 
 volumes:
-  db:
-    driver: local
+  db_data:

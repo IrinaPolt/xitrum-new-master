@@ -1,4 +1,4 @@
-package com.slickdb
+package quickstart.action
 
 import scala.concurrent.Future
 import slick.jdbc.GetResult

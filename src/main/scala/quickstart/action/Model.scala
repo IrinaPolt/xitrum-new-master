@@ -1,4 +1,4 @@
-package com.slickdb
+package quickstart.action
 
 import slick.lifted.Tag
 import slick.jdbc.PostgresProfile
